@@ -1,8 +1,8 @@
-name: EFC
+name: epic game
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * 4"
+    - cron: "0 7 * * *"
 
 jobs:
   EFC:
